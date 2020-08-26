@@ -1,0 +1,24 @@
+%YAML:1.0
+calibration_time: "Mon Oct 27 20:27:45 2014"
+image_width: 640
+image_height: 480
+camera_name: camera1
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [347.910129, 0, 298.721075, 0, 347.746361, 262.336144, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.320236 , 0.081712 , 0.000140,  0.000457 , 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [249.385208, 0.000000, 299.447057, 0.000000
+0.000000 , 278.284729 ,273.990388 , 0.000000
+0.000000 ,  0.000000 , 1.000000 , 0.000000]
